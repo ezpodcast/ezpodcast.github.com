@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[My Octopress Blog]]></title>
+  <link href="http://ezpodcast.github.io/atom.xml" rel="self"/>
+  <link href="http://ezpodcast.github.io/"/>
+  <updated>2013-09-07T21:16:35+08:00</updated>
+  <id>http://ezpodcast.github.io/</id>
+  <author>
+    <name><![CDATA[Your Name]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+</feed>
