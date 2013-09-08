@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <rss xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" version="2.0">
     <channel>
-        <title><![CDATA[My Octopress Blog]]></title>
+        <title><![CDATA[Ez变态调频]]></title>
         <link>http://ezpodcast.github.io</link>
         <language>en-us</language>
-        <copyright><![CDATA[Your Name]]></copyright>
-        <itunes:author><![CDATA[Your Name]]></itunes:author>
-        <itunes:subtitle><![CDATA[A blogging framework for hackers.]]></itunes:subtitle>
-        <description><![CDATA[]]></description>
+        <copyright><![CDATA[Easy]]></copyright>
+        <itunes:author><![CDATA[Easy]]></itunes:author>
+        <itunes:subtitle><![CDATA[让节操飞一会]]></itunes:subtitle>
+        <description><![CDATA[Ez的Podcast，应该是国内唯一一个用octopress来发布的Podcast]]></description>
         <itunes:explicit>yes</itunes:explicit>
         
         <itunes:owner>
@@ -28,7 +28,7 @@
             <link>http://ezpodcast.github.io/blog/2013/09/07/episode-1-hua-ti-bu-xiang/</link>
             <guid>http://ezpodcast.github.io/blog/2013/09/07/episode-1-hua-ti-bu-xiang/</guid>
             <pubDate>Sat, 07 Sep 2013 23:23:00 +0800</pubDate>
-            <itunes:author><![CDATA[Your Name]]></itunes:author>
+            <itunes:author><![CDATA[Easy]]></itunes:author>
             <itunes:summary><![CDATA[Ez变态调频，猜猜今天的话题]]></itunes:summary>
             <enclosure url="http://w1nd.me/Ez%E5%8F%98%E6%80%81%E8%B0%83%E9%A2%91001.mp3" type="audio/mp3" length="12381749" />
         </item>
