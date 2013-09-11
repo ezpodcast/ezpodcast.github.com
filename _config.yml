@@ -3,11 +3,11 @@
 # ----------------------- #
 
 url: http://ezpodcast.github.io
-title: My Octopress Blog
-subtitle: A blogging framework for hackers.
-author: Your Name
+title: Ez变态调频
+subtitle: 让节操飞一会
+author: Easy
 simple_search: http://google.com/search
-description:
+description: Ez的Podcast，应该是国内唯一一个用octopress来发布的Podcast
 
 # Default date format is "ordinal" (resulting in "July 22nd 2007")
 # You can customize the format as defined in

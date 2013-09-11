@@ -2,26 +2,39 @@
 layout: nil
 ---
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom">
-
-  <title><![CDATA[{{ site.title }}]]></title>
-  <link href="{{ site.url }}/atom.xml" rel="self"/>
-  <link href="{{ site.url }}/"/>
-  <updated>{{ site.time | date_to_xmlschema }}</updated>
-  <id>{{ site.url }}/</id>
-  <author>
-    <name><![CDATA[{{ site.author | strip_html }}]]></name>
-    {% if site.email %}<email><![CDATA[{{ site.email }}]]></email>{% endif %}
-  </author>
-  <generator uri="http://octopress.org/">Octopress</generator>
-
-  {% for post in site.posts limit: 20 %}
-  <entry>
-    <title type="html"><![CDATA[{{ post.title | cdata_escape }}]]></title>
-    <link href="{{ site.url }}{{ post.url }}"/>
-    <updated>{{ post.date | date_to_xmlschema }}</updated>
-    <id>{{ site.url }}{{ post.id }}</id>
-    <content type="html"><![CDATA[{{ post.content | expand_urls: site.url | cdata_escape }}]]></content>
-  </entry>
-  {% endfor %}
-</feed>
+<rss xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" version="2.0">
+    <channel>
+        <title><![CDATA[{{ site.title }}]]></title>
+        <link>{{ site.url }}</link>
+        <language>en-us</language>
+        <copyright><![CDATA[{{ site.author | strip_html }}]]></copyright>
+        <itunes:author><![CDATA[{{ site.author | strip_html }}]]></itunes:author>
+        <itunes:subtitle><![CDATA[{{ site.subtitle }}]]></itunes:subtitle>
+        <description><![CDATA[{{ site.description }}]]></description>
+        <itunes:explicit>yes</itunes:explicit>
+        
+        <itunes:owner>
+            <itunes:name>EASY</itunes:name>
+            <itunes:email>changetobeeasy@gmail.com</itunes:email>
+        </itunes:owner>
+        
+        <itunes:image href="http://ww3.sinaimg.cn/bmiddle/85b3a92dgw1e8fb6cu2zaj20go0godg5.jpg" />
+        <itunes:category text="Comedy">
+            <itunes:category text="Comedy"/>
+        </itunes:category>
+        
+        {% for post in site.posts limit: 20 %}
+        <item>
+            <title><![CDATA[{{ post.title | cdata_escape }}]]></title>
+            <description><![CDATA[{{ post.content | expand_urls: site.url | cdata_escape }}]]></description>
+            <link>{{ site.url }}{{ post.url }}</link>
+            <guid>{{ site.url }}{{ post.url }}</guid>
+            <pubDate>{{ post.date | date_to_rss }}</pubDate>
+            <itunes:author><![CDATA[{{ site.author | strip_html }}]]></itunes:author>
+            <itunes:summary><![CDATA[{{ post.summary }}]]></itunes:summary>
+            <enclosure url="http://w1nd.me/{{ post.filename }}.mp3" type="audio/mp3" length="{{ post.length }}" />
+        </item>
+        {% endfor %}
+        
+    </channel>
+</rss>

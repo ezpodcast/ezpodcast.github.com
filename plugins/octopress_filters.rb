@@ -129,6 +129,19 @@ module OctopressLiquidFilters
   def titlecase(input)
     input.titlecase
   end
+                 
+  def date_to_rss(input)
+    input.rfc2822
+  end
+  def titlecase(input)
+    input.titlecase
+  end
+
+   # Format the date to be RFC 2822
+   def date_to_rss(input)
+     input.rfc2822
+   end
+                 
 
 end
 Liquid::Template.register_filter OctopressLiquidFilters
