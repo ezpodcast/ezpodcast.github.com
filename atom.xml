@@ -15,11 +15,23 @@
             <itunes:email>changetobeeasy@gmail.com</itunes:email>
         </itunes:owner>
         
-        <itunes:image href="http://ww2.sinaimg.cn/bmiddle/85b3a92dgw1ee9k30m222j212w12wdil.jpg" />
+        <itunes:image href="http://103.251.88.163/cover.jpg" />
         <itunes:category text="Comedy">
             <itunes:category text="Comedy"/>
         </itunes:category>
         
+        
+        <item>
+            <title><![CDATA[Episode6:红衣男孩案]]></title>
+            <description><![CDATA[<p>节目介绍里面，先说一下我个人的看法吧，关于红衣男孩。大学的时候我就看到过，当时觉得很可怕，甚至刚开始做变态调频的时候，就觉得这是一个很好的话题，并且本来第三期节目就应该讲这个，但是后来在认真的看了一些信息后，放弃了这个话题。根本上来说，我赞同警方给出的说法。而最近有很多听众表示想听红衣男孩的话题，所以我最终还是做了这么一期节目，内容法医资料内容较多。恐怖气氛不足。最后，还是欢迎收听。</p>
+]]></description>
+            <link>http://ezpodcast.github.io/blog/2014/03/30/episode6-hong-yi-nan-hai-an/</link>
+            <guid>http://ezpodcast.github.io/blog/2014/03/30/episode6-hong-yi-nan-hai-an/</guid>
+            <pubDate>Sun, 30 Mar 2014 16:49:00 +0800</pubDate>
+            <itunes:author><![CDATA[Easy]]></itunes:author>
+            <itunes:summary><![CDATA[Ez变态调频第六案]]></itunes:summary>
+            <enclosure url="http://103.251.88.163/4444.mp3" type="audio/mp3" length="20233357" />
+        </item>
         
         <item>
             <title><![CDATA[Episode:白银连环杀人案]]></title>
